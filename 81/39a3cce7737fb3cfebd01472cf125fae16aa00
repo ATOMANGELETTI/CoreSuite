@@ -1,0 +1,69 @@
+.vscode/settings.json
+  s_84ab308140471f::t_ea6763221e3959 1-45,47-87
+  s_84ab308140471f::t_dc85c8b552d467 46
+.cursor/skills/fill-scaffold/SKILL.md
+  s_4d72c445940d91::t_ecc8dfce82cc2a 18
+.cursor/skills/new-program/SKILL.md
+  s_4d72c445940d91::t_c6f95b08afc746 12
+.github/ISSUE_TEMPLATE/feature.yml
+  s_84ab308140471f::t_7178bce423375a 1-32
+.github/workflows/release.yml
+  s_84ab308140471f::t_b0a4d874153461 1-51
+.github/ISSUE_TEMPLATE/bug.yml
+  s_84ab308140471f::t_d3da5c4549e070 1-48
+.vscode/tasks.json
+  s_84ab308140471f::t_2950782d5af50f 1-108
+.github/release.yml
+  s_84ab308140471f::t_4ca96b28e7beca 1-23
+.github/actions/setup-coresuite/action.yml
+  s_84ab308140471f::t_26f30448b49780 1-28
+.github/ISSUE_TEMPLATE/config.yml
+  s_84ab308140471f::t_90cd2dfe42642f 1
+.vscode/extensions.json
+  s_84ab308140471f::t_9558728ec96e66 1-12
+.github/PULL_REQUEST_TEMPLATE.md
+  s_84ab308140471f::t_61843d0cac1dc8 1-19
+.github/dependabot.yml
+  s_84ab308140471f::t_7dd6f94c640adb 1-31
+.cursor/skills/add-program/SKILL.md
+  s_4d72c445940d91::t_e0e27025623e44 17,20,24-26
+  s_4d72c445940d91::t_f84ca6bfab6ba5 3
+.github/workflows/cy.yml
+  s_84ab308140471f::t_6969f2638f5a43 1-41
+AGENTS.md
+  s_3ad8c22701c259::t_6f441cd5a94693 3,12,29-44
+.vscode/launch.json
+  s_84ab308140471f::t_4d639c1802e274 1-47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "8139a3cce7737fb3cfebd01472cf125fae16aa00",
+  "prompts": {},
+  "sessions": {
+    "s_3ad8c22701c259": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "0a52c524-2be1-4eb7-99c1-077a01035ff6",
+        "model": "cursor-grok-4.6-xhigh-fast"
+      },
+      "human_author": "ATOMANGELETTI <DUSTIN@ANGELETTI.SPACE>"
+    },
+    "s_4d72c445940d91": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "f7ab5cb5-86eb-407c-a943-6070e3c438dd",
+        "model": "cursor-grok-4.6-xhigh-fast"
+      },
+      "human_author": "ATOMANGELETTI <DUSTIN@ANGELETTI.SPACE>"
+    },
+    "s_84ab308140471f": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "e8606575-15a3-492f-b68f-c747f87be42e",
+        "model": "grok-4.6"
+      },
+      "human_author": "ATOMANGELETTI <DUSTIN@ANGELETTI.SPACE>"
+    }
+  }
+}
