@@ -1,6 +1,6 @@
 ---
-description: TypeScript workspace, shared tsconfig, and pnpm-only package management
-globs: "**/*.{ts,tsx}"
+description: TypeScript workspace, shared tsconfig, Svelte modules, and pnpm-only package management
+globs: "**/*.{ts,tsx,svelte}"
 alwaysApply: false
 ---
 
@@ -9,8 +9,9 @@ alwaysApply: false
 ## Workspace
 
 - Package manager is **pnpm** (`pnpm-workspace.yaml`). Do not add npm, yarn, or bun as a second top-level manager.
+- Shared JS versions belong in `catalog:` of `pnpm-workspace.yaml`.
 - Shared packages: `packages/shell-bridge`, `packages/shell-ui`, `packages/tsconfig`.
-- App TS lives in `programs/<name>/`. Do not copy a package into a program.
+- App TS/Svelte lives in `programs/<name>/`. Do not copy a package into a program.
 
 ## Config
 
@@ -22,4 +23,4 @@ alwaysApply: false
 
 - Cross-program TS → a `packages/` package, then import.
 - One-program TS → that program only.
-- Do not complete empty manifests unless the task needs it.
+- Do not complete empty manifests unless the task needs it. Use `/bootstrap-workspace` for root workspace files.

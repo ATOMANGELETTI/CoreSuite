@@ -1,6 +1,6 @@
 ---
 description: Vitest and Playwright placement for CoreSuite programs
-globs: "**/vitest.config.*,**/playwright.config.*,**/*.{test,spec}.{ts,tsx},**/tsconfig.test.json,tests/**"
+globs: "**/vitest.config.*,**/playwright.config.*,**/*.{test,spec}.{ts,tsx,svelte},**/tsconfig.test.json,tests/**"
 alwaysApply: false
 ---
 

@@ -19,6 +19,8 @@ Every tracked source file starts empty. The **tree is the spec**. Before filling
 4. Do not add folders, crates, packages, workflows, or MCP servers that are not already in the tree.
 5. Do not invent product features (no fake editor/explorer/terminal behavior).
 6. Reuse workspace names from existing `package.json` / `Cargo.toml` when present.
+7. Root workspace files (`package.json`, `pnpm-workspace.yaml`, `cargo.toml`, `turbo.json`) → follow `.cursor/skills/bootstrap-workspace/SKILL.md`.
+8. When filling UI, convert empty `App.tsx` to Svelte 5. Run the Svelte MCP autofixer on new `.svelte` files.
 
 ## After filling
 

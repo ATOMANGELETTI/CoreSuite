@@ -11,7 +11,8 @@ Clone the **tree** of `programs/editor`. Do not invent a second layout. Do not i
 
 1. Ask for the program folder name (kebab-case). Create `programs/<name>/` matching editor:
    - `index.html`, `package.json`
-   - `src/App.tsx`, `src/main.tsx`, `src/styles/**`, `src/types/vite-env.d.ts`
+   - `src/` host files as they exist on editor today (`App.tsx` / `main.tsx` until converted)
+   - `src/styles/**`, `src/types/vite-env.d.ts`
    - `src-tauri/` — `Cargo.toml`, `build.rs`, `src/main.rs`, `tauri.conf.json`, `tauri.windows.conf.json`
    - `src-tauri/capabilities/` — `default.json`, `desktop.json`, `splashscreen.json`, `tray-menu.json`, `context-menus.json`
    - `src-tauri/configs/` — `vite.config.ts`, `vitest.config.ts`, `playwright.config.ts`, `middleware.ts`, `typescript/tsconfig.*.json`
@@ -23,4 +24,5 @@ Clone the **tree** of `programs/editor`. Do not invent a second layout. Do not i
    - `turbo.json` — same pipeline shape as editor, if any
 3. Reuse `packages/shell-ui`, `packages/shell-bridge`, `crates/{core,shell,cli}`. Do not copy them into the program.
 4. Leave files as empty as editor if you are only scaffolding. Fill only what the task needs.
-5. Do not add MCP servers, extra crates, or a fourth program layout.
+5. When filling UI, convert empty `App.tsx` to Svelte 5 per `.cursor/context/stack.md`. Do not add more React.
+6. Do not add MCP servers, extra crates, or a fourth program layout.

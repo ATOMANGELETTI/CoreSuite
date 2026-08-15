@@ -1,0 +1,25 @@
+---
+description: Shared Svelte UI, thin program shells, and Nord tokens
+globs: "**/*.{svelte,css,tsx}"
+alwaysApply: false
+---
+
+# Shared UI
+
+Follow `.cursor/context/stack.md` and `.cursor/context/ui.md`. Empty `App.tsx` converts to Svelte 5 when filled. Do not add more React.
+
+## Placement
+
+- Shared UI → `packages/shell-ui` (manifest: `packages/shell-ui/src/package.json`).
+- Program `src/` stays a thin host. Do not reimplement chrome in each app.
+- `index.html` stays per-program. Prefer `App.svelte` / `main.ts` once converted.
+
+## Theme
+
+- Nord tokens only in `styles/modules/themes/nord-theme.css`, defined once in shell-ui.
+- No second theme engine. No per-program palette forks.
+
+## Svelte
+
+- Svelte 5 runes. After writing `.svelte`, run the Svelte MCP autofixer until clean.
+- Do not copy the same widget into editor, explorer, and terminal.

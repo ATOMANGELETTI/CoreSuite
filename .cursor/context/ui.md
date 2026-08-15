@@ -1,6 +1,6 @@
 # UI
 
-Shared chrome lives in `packages/shell-ui`. Program `App.tsx` / future Svelte hosts stay thin.
+Shared chrome lives in `packages/shell-ui`. Program hosts stay thin: convert empty `App.tsx` to Svelte 5 when filling.
 
 ## Nord (official palettes only)
 
