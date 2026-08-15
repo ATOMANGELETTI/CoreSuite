@@ -1,0 +1,32 @@
+---
+description: Rust workspace, crate placement, and IPC-safe error handling
+globs: "**/*.{rs,toml},crates/**"
+alwaysApply: false
+---
+
+# Rust
+
+## Workspace
+
+- Shared crates are only `crates/core`, `crates/shell`, and `crates/cli`.
+- Do not add a crate that duplicates those roles.
+- App Rust lives in `programs/<name>/src-tauri/`. Depend on shared crates; do not copy them.
+- Root `cargo.toml` is the Cargo workspace. Register members there; do not invent a second workspace file.
+
+## Types and FFI
+
+- Shared FFI / IPC types belong in `crates/core`.
+- `crates/shell` is shared shell behavior. `crates/cli` is CLI-only.
+- Do not define the same type in a program and a crate.
+
+## Errors
+
+```rust
+// BAD — lib / IPC
+let v = state.inner.lock().unwrap();
+
+// GOOD
+let v = state.inner.lock().map_err(|e| e.to_string())?;
+```
+
+- No `unwrap()` / `expect()` on IPC commands, library paths, or anything that crosses the webview boundary.

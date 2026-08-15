@@ -1,0 +1,25 @@
+---
+description: Vitest and Playwright placement for CoreSuite programs
+globs: "**/vitest.config.*,**/playwright.config.*,**/*.{test,spec}.{ts,tsx},**/tsconfig.test.json,tests/**"
+alwaysApply: false
+---
+
+# Testing
+
+## Where tests live
+
+- Behavior tests live in the **program that owns the behavior** (`programs/editor|explorer|terminal`).
+- Shared helpers belong in `packages/` or a top-level `tests/` — not copied into all three programs.
+- Do not add a third test runner. Use Vitest and Playwright only.
+
+## Configs (already in the tree)
+
+- `programs/<name>/src-tauri/configs/vitest.config.ts`
+- `programs/<name>/src-tauri/configs/playwright.config.ts`
+- `programs/<name>/src-tauri/configs/typescript/tsconfig.test.json`
+
+## Constraints
+
+- Configs and `package.json` scripts are empty until filled. Do not invent runners that are not in those files.
+- Prefer `node` over bash. Agent shell is PowerShell.
+- Do not complete empty test scaffolding unless the task needs a test.

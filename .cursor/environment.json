@@ -1,0 +1,5 @@
+{
+  "$schema": "https://www.cursor.com/schemas/environment.schema.json",
+  "name": "CoreSuite",
+  "install": "set -eu; export PATH=\"$HOME/.cargo/bin:$PATH\"; if ! command -v rustc >/dev/null 2>&1; then curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --profile minimal; fi; . \"$HOME/.cargo/env\" 2>/dev/null || true; if ! command -v node >/dev/null 2>&1; then curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -; sudo apt-get install -y nodejs; fi; if ! command -v pnpm >/dev/null 2>&1; then if command -v corepack >/dev/null 2>&1; then corepack enable; corepack prepare pnpm@latest --activate; else npm install -g pnpm; fi; fi"
+}

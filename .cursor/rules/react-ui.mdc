@@ -1,0 +1,26 @@
+---
+description: Shared React UI, thin program shells, and Nord theme tokens
+globs: "**/*.{tsx,css}"
+alwaysApply: false
+---
+
+# React UI
+
+## Placement
+
+- Shared UI belongs in `packages/shell-ui` (its `package.json` is at `packages/shell-ui/src/package.json` — do not invent a second package root).
+- `programs/<name>/src/App.tsx` stays thin: compose shared UI, do not reimplement it.
+- `main.tsx` / `index.html` stay per-program entrypoints.
+
+## Theme
+
+- Nord tokens live in the existing `styles/modules/themes/nord-theme.css` files.
+- Do not add a second theme system or hard-code a parallel palette.
+- Prefer defining tokens once in `packages/shell-ui` and importing; do not fork tokens per program.
+
+## Anti-duplication
+
+```tsx
+// BAD — same widget copied into editor, explorer, and terminal
+// GOOD — widget in packages/shell-ui; each App.tsx imports it
+```

@@ -1,0 +1,17 @@
+# Lockfiles — keep search on source
+**/Cargo.lock
+**/cargo.lock
+**/package-lock.json
+pnpm-lock.yaml
+
+# Large / generated trees
+**/target/
+**/src-tauri/gen/
+node_modules/
+dist/
+.turbo/
+coverage/
+playwright-report/
+test-results/
+**/*.exe
+**/*.msi

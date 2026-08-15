@@ -1,0 +1,14 @@
+---
+description: Keep CI and release GitHub workflows separate
+globs: ".github/**"
+alwaysApply: false
+---
+
+# GitHub
+
+- CI is `.github/workflows/cy.yml`. Release is `.github/workflows/release.yml`. **Keep them separate.**
+- Do not collapse CI and release into one workflow.
+- Do not add extra workflows unless asked.
+- These files are empty scaffold. When filling, keep verify/build in `cy.yml` and version/publish/NSIS in `release.yml`.
+- Windows-first suite: do not assume Linux WebView2/NSIS in CI unless the workflow already says so.
+- Do not put secrets in workflow files. Use GitHub Actions secrets.

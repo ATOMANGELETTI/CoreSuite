@@ -1,0 +1,23 @@
+# Dependencies and build output
+node_modules/
+**/target/
+dist/
+.turbo/
+coverage/
+playwright-report/
+test-results/
+
+# Cursor hook runtime (local only; not project config)
+.cursor/hooks/state/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store

@@ -1,0 +1,24 @@
+---
+description: Tauri 2 capabilities, Windows configs, NSIS, and IPC via shell-bridge
+globs: "**/src-tauri/**,**/tauri*.json,**/capabilities/**"
+alwaysApply: false
+---
+
+# Tauri 2
+
+## Config
+
+- Each program has `src-tauri/tauri.conf.json` plus `src-tauri/tauri.windows.conf.json`. Keep them split.
+- NSIS scripts live under `src-tauri/NSIS/` (e.g. `installer.nsh`). Do not add a second installer tree.
+- Dev/package entrypoints: `src-tauri/scripts/dev.ts` and `src-tauri/scripts/package.ts`.
+
+## Capabilities
+
+- Allowlists live in `src-tauri/capabilities/` (`default`, `desktop`, `splashscreen`, `tray-menu`, `context-menus`).
+- Capabilities JSON is the security boundary. Do not widen permissions to "make it work".
+- Add a command to a capability only when that program needs it.
+
+## IPC
+
+- Frontend calls go through `packages/shell-bridge`. Do not scatter ad-hoc `invoke("...")` strings in program UI.
+- Command names and payload types must match `crates/core` (and the Rust command). Do not invent a parallel API per program.

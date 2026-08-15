@@ -1,0 +1,19 @@
+# Secrets - never send to the model
+.env
+.env.*
+!.env.example
+**/*.pem
+**/*.key
+**/credentials.json
+
+# Build artifacts
+**/target/
+node_modules/
+dist/
+.turbo/
+
+# Installer blobs (keep NSIS/*.nsh source)
+**/bundle/
+**/*.msi
+**/*-setup.exe
+**/src-tauri/gen/

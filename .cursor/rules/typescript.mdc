@@ -1,0 +1,25 @@
+---
+description: TypeScript workspace, shared tsconfig, and pnpm-only package management
+globs: "**/*.{ts,tsx}"
+alwaysApply: false
+---
+
+# TypeScript
+
+## Workspace
+
+- Package manager is **pnpm** (`pnpm-workspace.yaml`). Do not add npm, yarn, or bun as a second top-level manager.
+- Shared packages: `packages/shell-bridge`, `packages/shell-ui`, `packages/tsconfig`.
+- App TS lives in `programs/<name>/`. Do not copy a package into a program.
+
+## Config
+
+- Shared compiler options live in `packages/tsconfig` (root `tsconfig.base.json` also exists). Extend those; do not fork a third base config.
+- Per-program TS configs are under `programs/<name>/src-tauri/configs/typescript/`.
+- Reuse the `name` already in each `package.json`. If empty, set one name when first filling that file and use it everywhere.
+
+## Placement
+
+- Cross-program TS → a `packages/` package, then import.
+- One-program TS → that program only.
+- Do not complete empty manifests unless the task needs it.
