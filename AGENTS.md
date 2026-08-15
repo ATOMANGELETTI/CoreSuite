@@ -2,7 +2,7 @@
 
 Windows-first Tauri 2 monorepo: three desktop programs that share Rust crates and TS/Svelte packages.
 
-**Read [`.cursor/rules/coresuite.mdc`](.cursor/rules/coresuite.mdc) first.** Stack rules, skills, and review agents live under `.cursor/`.
+**Read [`.cursor/rules/coresuite.mdc`](.cursor/rules/coresuite.mdc) first.** Stack rules, skills, and review agents live under `.cursor/`. On-demand packs: [`.cursor/context/`](.cursor/context/README.md). Version cache: [`.cursor/cache/`](.cursor/cache/README.md).
 
 ## Map
 

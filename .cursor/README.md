@@ -12,6 +12,8 @@ Layered Cursor workspace for CoreSuite. Always-on rules stay tiny; stack rules a
 | `commands/` | Slash entry points that follow the matching skill |
 | `agents/` | Readonly reviewers (`tauri-reviewer`, `monorepo-reviewer`) |
 | `hooks/` | Node `before-shell` safety rail. `hooks/state/` is local-only |
+| `context/` | On-demand knowledge packs (architecture, stack, UI, versions) |
+| `cache/` | Local version/doc cache (gitignored except README + example) |
 | `environment.json` | Lean Ubuntu cloud bootstrap (no Linux Tauri/NSIS) |
 
 Root files Cursor also reads: [`AGENTS.md`](../AGENTS.md), `.cursorignore`, `.cursorindexingignore`.
@@ -20,5 +22,5 @@ Root files Cursor also reads: [`AGENTS.md`](../AGENTS.md), `.cursorignore`, `.cu
 
 - Windows-first. Agent shell is PowerShell; prefer `node` over bash.
 - Do not add `mcp.json`. Use already-available Context7.
-- Do not treat `hooks/state/` as project config (gitignored).
+- Do not treat `hooks/state/` or `cache/` (except README / example) as project config.
 - Do not complete the empty repo unless asked.

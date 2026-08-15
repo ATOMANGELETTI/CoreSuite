@@ -5,7 +5,7 @@ description: Fills empty CoreSuite scaffold files without inventing a second arc
 
 # Fill scaffold
 
-Every tracked source file starts empty. The **tree is the spec**.
+Every tracked source file starts empty. The **tree is the spec**. Before filling stack or UI, read `.cursor/context/stack.md` and `.cursor/context/architecture.md`. Resolve versions per `.cursor/context/versions.md`.
 
 ## Rules
 

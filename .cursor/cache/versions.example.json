@@ -1,0 +1,16 @@
+{
+  "pnpm": {
+    "svelte": {
+      "version": "0.0.0",
+      "source": "pnpm-view",
+      "resolvedAt": "1970-01-01"
+    }
+  },
+  "cargo": {
+    "tauri": {
+      "version": "0.0.0",
+      "source": "crates-io",
+      "resolvedAt": "1970-01-01"
+    }
+  }
+}

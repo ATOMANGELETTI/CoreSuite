@@ -10,6 +10,12 @@ test-results/
 # Cursor hook runtime (local only; not project config)
 .cursor/hooks/state/
 
+# Cursor local version/doc cache (README + example stay tracked)
+.cursor/cache/**
+!.cursor/cache/README.md
+!.cursor/cache/.gitignore
+!.cursor/cache/versions.example.json
+
 # Secrets
 .env
 .env.*

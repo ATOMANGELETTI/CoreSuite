@@ -1,10 +1,12 @@
 ---
-description: Shared React UI, thin program shells, and Nord theme tokens
-globs: "**/*.{tsx,css}"
+description: Shared UI, thin program shells, Nord tokens, and Svelte fill path
+globs: "**/*.{tsx,css,svelte}"
 alwaysApply: false
 ---
 
-# React UI
+# Shared UI
+
+When filling UI, follow `.cursor/context/stack.md` and `.cursor/context/ui.md` (Svelte 5 + Nord). Empty `App.tsx` hosts convert; do not add more React.
 
 ## Placement
 

@@ -14,7 +14,7 @@ Never copy a feature into `editor`, `explorer`, and `terminal`. Extract, then im
    - Rust (window/shell behavior) → `crates/shell`
    - Rust (CLI only) → `crates/cli`
    - TS/IPC client → `packages/shell-bridge`
-   - React/CSS → `packages/shell-ui`
+   - Svelte/CSS → `packages/shell-ui`
    - TS compiler defaults → `packages/tsconfig`
 2. **Used by one program only?** → `programs/<name>/` (`src/` or `src-tauri/`).
 3. **Already exists in a shared layer?** → import it. Do not reimplement.

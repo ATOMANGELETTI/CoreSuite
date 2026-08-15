@@ -10,14 +10,14 @@ Windows-first suite of Tauri 2 programs: `editor`, `explorer`, `terminal`.
 ## Placement
 
 - Shared Rust → `crates/{core,shell,cli}`
-- Shared TS/React → `packages/{shell-ui,shell-bridge,tsconfig}`
+- Shared TS/Svelte → `packages/{shell-ui,shell-bridge,tsconfig}`
 - App-only → `programs/<name>/`
 - Never copy a feature into all three programs. Extract, then import.
 - Scaffold files are empty. Establish a pattern in the shared layer first, then use it in one program.
 
 ## Tooling
 
-pnpm workspaces, Turbo, Cargo workspace, Vitest, Playwright, NSIS. Nord theme: `styles/modules/themes/nord-theme.css`.
+pnpm workspaces, Turbo, Cargo workspace, Vitest, Playwright, NSIS. Details: `.cursor/context/` (read the matching pack). Versions: `.cursor/context/versions.md` + `.cursor/cache/`.
 
 ## Security
 
@@ -26,5 +26,5 @@ Capabilities JSON is the security boundary. Do not widen allowlists to "make it 
 ## Agent
 
 - Shell is PowerShell. Prefer `node` scripts over bash.
-- Use already-available Context7 for Tauri/Rust/React docs. Do not add project MCP servers.
+- Use already-available Context7 for Tauri/Rust/Svelte docs. Do not add project MCP servers.
 - Do not "complete" the empty repo unless asked. Change only what the task needs.
