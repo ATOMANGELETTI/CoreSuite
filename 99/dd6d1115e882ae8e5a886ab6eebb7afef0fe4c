@@ -1,0 +1,280 @@
+programs/terminal/src-tauri/src/main.rs
+  s_dc6d66c5fbfcb7::t_5d2b70c50835a1 4
+  s_dc6d66c5fbfcb7::t_365d6f665f899c 1-3,5-7
+crates/shell/Cargo.toml
+  s_dc6d66c5fbfcb7::t_f588b42087ece5 1-9,11
+  s_dc6d66c5fbfcb7::t_757c105d38b806 10
+programs/editor/src-tauri/configs/typescript/tsconfig.test.json
+  s_dc6d66c5fbfcb7::t_c61bf1b1824be3 1-3
+programs/terminal/src-tauri/Cargo.toml
+  s_dc6d66c5fbfcb7::t_8607552d09b3ab 1-14
+packages/shell-ui/src/lib/utils.ts
+  s_dc6d66c5fbfcb7::t_528cfee9e7dc5e 1-6
+programs/explorer/src-tauri/capabilities/context-menus.json
+  s_dc6d66c5fbfcb7::t_16e335b2275c37 1-5
+programs/terminal/src-tauri/configs/typescript/tsconfig.app.json
+  s_dc6d66c5fbfcb7::t_3781c9153631ca 1-7
+programs/editor/src-tauri/tauri.windows.conf.json
+  s_dc6d66c5fbfcb7::t_191af2eddee87e 1-5,7-10
+  s_dc6d66c5fbfcb7::t_5029e92bd88f12 6
+programs/editor/src-tauri/capabilities/desktop.json
+  s_dc6d66c5fbfcb7::t_156dab5fc6c2c1 1-5
+packages/shell-bridge/src/index.ts
+  s_dc6d66c5fbfcb7::t_0c915fcf4d68ae 1-8
+.vscode/extensions.json
+  s_dc6d66c5fbfcb7::t_ed247c1d1c59f4 10-11
+programs/explorer/src-tauri/src/main.rs
+  s_dc6d66c5fbfcb7::t_49e6d064518c1d 1-3,5-7
+  s_dc6d66c5fbfcb7::t_a18a2303c09103 4
+packages/tsconfig/base.json
+  s_dc6d66c5fbfcb7::t_d96905b78c6326 1-3
+programs/editor/src/main.ts
+  s_dc6d66c5fbfcb7::t_627ee42bb0ce2b 1-12
+programs/editor/src-tauri/Cargo.toml
+  s_dc6d66c5fbfcb7::t_66524fb42ca0f0 1-14
+rust-toolchain.toml
+  s_dc6d66c5fbfcb7::t_71699cc6f5c46a 1-2
+programs/terminal/svelte.config.js
+  s_dc6d66c5fbfcb7::t_cad54495fbc9cd 1-11
+programs/explorer/src-tauri/scripts/dev.ts
+  s_dc6d66c5fbfcb7::t_2f2994cb78eb56 1-16
+programs/explorer/src-tauri/tauri.conf.json
+  s_dc6d66c5fbfcb7::t_facb4c7b79d24d 32-33
+  s_dc6d66c5fbfcb7::t_0dc5c956d33906 1-31,34-35
+programs/explorer/src/App.svelte
+  s_dc6d66c5fbfcb7::t_9df36ac4b1c7f2 1-11
+programs/explorer/svelte.config.js
+  s_dc6d66c5fbfcb7::t_f54495c177d68d 1-11
+programs/terminal/src-tauri/tauri.conf.json
+  s_dc6d66c5fbfcb7::t_9a019c4df86072 32-33
+  s_dc6d66c5fbfcb7::t_d5ed2ea4c73dc1 1-31,34-35
+packages/shell-ui/src/tsconfig.json
+  s_dc6d66c5fbfcb7::t_88abaac16efaa4 1-11
+programs/terminal/src-tauri/capabilities/desktop.json
+  s_dc6d66c5fbfcb7::t_49f9ed58794c0f 1-5
+packages/shell-ui/src/styles/app.css
+  s_dc6d66c5fbfcb7::t_d44e3c8bcaf21c 1-279
+packages/shell-ui/src/styles/index.css
+  s_dc6d66c5fbfcb7::t_53c552a241ce96 1-6
+programs/terminal/src/styles/app.css
+  s_dc6d66c5fbfcb7::t_34d9f27817f908 1
+programs/editor/src-tauri/src/main.rs
+  s_dc6d66c5fbfcb7::t_90461f5191b3cb 4
+  s_dc6d66c5fbfcb7::t_596390f6803743 1-3,5-7
+packages/shell-ui/src/package.json
+  s_dc6d66c5fbfcb7::t_82415273468888 17
+  s_dc6d66c5fbfcb7::t_90cb8694b534ce 1-16,18-28
+packages/shell-ui/src/components.json
+  s_dc6d66c5fbfcb7::t_159ec6dc473d15 1-17
+programs/editor/svelte.config.js
+  s_dc6d66c5fbfcb7::t_139782a6db8ea1 1-11
+programs/editor/package.json
+  s_dc6d66c5fbfcb7::t_3c7854e8b5a797 1-28
+programs/explorer/src-tauri/capabilities/splashscreen.json
+  s_dc6d66c5fbfcb7::t_4f5a3dc6117ec8 1-5
+packages/shell-bridge/tsconfig.json
+  s_dc6d66c5fbfcb7::t_958e6f7f258233 1-10
+programs/terminal/src/styles/modules/themes/nord-theme.css
+  s_dc6d66c5fbfcb7::t_60aba360c0fb5b 1
+programs/terminal/src-tauri/scripts/dev.ts
+  s_dc6d66c5fbfcb7::t_c561cfca04b1cc 1-16
+programs/terminal/src/App.svelte
+  s_dc6d66c5fbfcb7::t_4571f05d1745a3 1-11
+packages/shell-bridge/src/core.ts
+  s_dc6d66c5fbfcb7::t_0cb1ee8eb41549 1-19
+packages/shell-ui/src/components/chrome/StatusBar.svelte
+  s_dc6d66c5fbfcb7::t_8f70bf3f7a4680 1,4-46
+  s_dc6d66c5fbfcb7::t_48f8fd02281360 2-3
+programs/explorer/src-tauri/capabilities/desktop.json
+  s_dc6d66c5fbfcb7::t_c64cfd6b1df86f 1-5
+turbo.json
+  s_dc6d66c5fbfcb7::t_c9b8fa4fc7ee90 1-13
+cargo.toml
+  s_dc6d66c5fbfcb7::t_f885b914743a51 1-25
+programs/explorer/package.json
+  s_dc6d66c5fbfcb7::t_a7ddd38c46360a 1-28
+programs/explorer/src-tauri/Cargo.toml
+  s_dc6d66c5fbfcb7::t_e62dd5baaf2e30 1-14
+programs/editor/src-tauri/capabilities/context-menus.json
+  s_dc6d66c5fbfcb7::t_4db72fc099f318 1-5
+programs/terminal/index.html
+  s_dc6d66c5fbfcb7::t_1c0b066317e5b7 1-12
+programs/explorer/src-tauri/configs/typescript/tsconfig.app.json
+  s_dc6d66c5fbfcb7::t_4b81b1ff9fefbe 1-7
+programs/terminal/src-tauri/capabilities/splashscreen.json
+  s_dc6d66c5fbfcb7::t_4db4e78bdae905 1-5
+programs/terminal/src-tauri/tauri.windows.conf.json
+  s_dc6d66c5fbfcb7::t_08a707d8d046f5 1-10
+programs/editor/src-tauri/tauri.conf.json
+  s_dc6d66c5fbfcb7::t_00b7ed2d6fed91 1-31,34-35
+  s_dc6d66c5fbfcb7::t_1618468a8c311e 32-33
+.prettierrc
+  s_dc6d66c5fbfcb7::t_12c26984517593 1-11
+programs/editor/src-tauri/capabilities/tray-menu.json
+  s_dc6d66c5fbfcb7::t_71a28e092cb2a6 1-5
+programs/explorer/src-tauri/tauri.windows.conf.json
+  s_dc6d66c5fbfcb7::t_c9ca6a65a33159 1-10
+.node-version
+  s_dc6d66c5fbfcb7::t_53d0e13344fea1 1
+programs/terminal/src/types/vite-env.d.ts
+  s_dc6d66c5fbfcb7::t_55826540b83e62 1-2
+programs/editor/src-tauri/configs/vite.config.ts
+  s_dc6d66c5fbfcb7::t_e7f3d3c40a4766 1-14,18-39,41-43
+  s_dc6d66c5fbfcb7::t_1d33be4aea5dea 15-17
+  s_dc6d66c5fbfcb7::t_f2acb644c2dce3 40
+crates/shell/src/commands.rs
+  s_dc6d66c5fbfcb7::t_32e0aa1d0a69dc 1-29
+programs/terminal/src/styles/index.css
+  s_dc6d66c5fbfcb7::t_79862ebee74cb3 1
+  s_dc6d66c5fbfcb7::t_4861eb72fa0889 2-3
+programs/explorer/src/styles/modules/themes/nord-theme.css
+  s_dc6d66c5fbfcb7::t_28afa4bcad7e1a 1
+packages/shell-bridge/package.json
+  s_dc6d66c5fbfcb7::t_bb8556565c52c2 1-16
+programs/terminal/src-tauri/build.rs
+  s_dc6d66c5fbfcb7::t_47da525853b8d1 1-3
+crates/core/Cargo.toml
+  s_dc6d66c5fbfcb7::t_28fcc45023fef8 1-11
+packages/shell-ui/src/components/theme/ThemeProvider.svelte
+  s_dc6d66c5fbfcb7::t_2ca8684e199916 1-11
+programs/explorer/src/main.ts
+  s_dc6d66c5fbfcb7::t_027183f81594ed 1-12
+packages/shell-bridge/src/window.ts
+  s_dc6d66c5fbfcb7::t_738415657b2a4a 1-17
+tsconfig.base.json
+  s_dc6d66c5fbfcb7::t_d687f743fb706b 1-3
+packages/tsconfig/package.json
+  s_dc6d66c5fbfcb7::t_5717ecb1846164 1-11
+packages/shell-ui/src/components/chrome/TrafficLights.svelte
+  s_dc6d66c5fbfcb7::t_0045a7a4b626f8 1-52
+programs/terminal/package.json
+  s_dc6d66c5fbfcb7::t_d6237bc6c0de47 1-28
+packages/shell-ui/src/styles/modules/themes/nord-theme.css
+  s_dc6d66c5fbfcb7::t_c824d3dd4c81cf 1-88
+packages/tsconfig/tsconfig.app.json
+  s_dc6d66c5fbfcb7::t_27face0153f391 1-7
+programs/editor/src/App.svelte
+  s_dc6d66c5fbfcb7::t_5dfe78b7e84f01 1-11
+programs/explorer/index.html
+  s_dc6d66c5fbfcb7::t_3aca3a6243b777 1-12
+.nodeswitcher
+  s_dc6d66c5fbfcb7::t_f6b92a92e1db4c 1
+  s_dc6d66c5fbfcb7::t_e29c3135aa881f 2-4
+programs/editor/index.html
+  s_dc6d66c5fbfcb7::t_2df4704fcfbeb5 1-12
+packages/shell-ui/src/components/chrome/Sidebar.svelte
+  s_dc6d66c5fbfcb7::t_ad7153e0657c40 1,5-62
+  s_dc6d66c5fbfcb7::t_8af05f35aef39a 2-4
+programs/editor/src-tauri/configs/typescript/tsconfig.node.json
+  s_dc6d66c5fbfcb7::t_36ef86cbfd625a 1-8
+programs/explorer/src-tauri/configs/vite.config.ts
+  s_dc6d66c5fbfcb7::t_9d82a68838e713 15-17
+  s_dc6d66c5fbfcb7::t_b6ebdfd67355fe 40
+  s_dc6d66c5fbfcb7::t_74b8766425b224 1-14,18-39,41-43
+crates/cli/src/lib.rs
+  s_dc6d66c5fbfcb7::t_9b6e9bd94dbc57 1-13
+packages/shell-ui/src/components/chrome/tab.ts
+  s_dc6d66c5fbfcb7::t_27a33d9c5d66de 1-5
+packages/shell-ui/src/types/vite-env.d.ts
+  s_dc6d66c5fbfcb7::t_402d544d96e572 1-2
+programs/editor/src-tauri/capabilities/splashscreen.json
+  s_dc6d66c5fbfcb7::t_cdd3b46feab61b 1-5
+programs/editor/src-tauri/configs/typescript/tsconfig.build.json
+  s_dc6d66c5fbfcb7::t_0efedd715760ab 1-6
+packages/shell-ui/src/components/chrome/TabBar.svelte
+  s_dc6d66c5fbfcb7::t_0005b82fc4dc56 4
+  s_dc6d66c5fbfcb7::t_ce1f1244f3bb30 1-3,5-33
+programs/editor/src/styles/index.css
+  s_dc6d66c5fbfcb7::t_58f46537e33aef 1-3
+programs/editor/src/styles/modules/themes/nord-theme.css
+  s_dc6d66c5fbfcb7::t_1ee1176ff0b548 1
+programs/explorer/src-tauri/capabilities/default.json
+  s_dc6d66c5fbfcb7::t_37f5c5a554bc79 1-12
+programs/editor/src-tauri/capabilities/default.json
+  s_dc6d66c5fbfcb7::t_4eaaf82774bc09 1-12
+programs/explorer/src/styles/index.css
+  s_dc6d66c5fbfcb7::t_20f519ea0cd923 1-3
+packages/shell-ui/src/components/chrome/Titlebar.svelte
+  s_dc6d66c5fbfcb7::t_6a28219ec9f096 1-24
+packages/tsconfig/tsconfig.library.json
+  s_dc6d66c5fbfcb7::t_e6e6ed5276f3a9 1-9
+README.md
+  s_dc6d66c5fbfcb7::t_a947c4a520f5fe 1-23
+crates/shell/src/lib.rs
+  s_dc6d66c5fbfcb7::t_ae5ce6db0b35d4 1-5,8-9,11-12,15-26,37
+  s_dc6d66c5fbfcb7::t_509baa857c8adf 6-7,13-14,27-36
+  s_dc6d66c5fbfcb7::t_805bd1ec1791e6 10
+programs/explorer/src/styles/app.css
+  s_dc6d66c5fbfcb7::t_25586141252780 1
+programs/terminal/src-tauri/capabilities/context-menus.json
+  s_dc6d66c5fbfcb7::t_974e5f27e992df 1-5
+programs/explorer/src-tauri/capabilities/tray-menu.json
+  s_dc6d66c5fbfcb7::t_361d50f7edb951 1-5
+crates/core/src/lib.rs
+  s_dc6d66c5fbfcb7::t_e23abfc897f293 1-72
+programs/editor/src-tauri/scripts/dev.ts
+  s_dc6d66c5fbfcb7::t_7241593df46236 1-16
+programs/explorer/src/types/vite-env.d.ts
+  s_dc6d66c5fbfcb7::t_206c6e29fd1282 1-2
+package.json
+  s_dc6d66c5fbfcb7::t_82cd6a22ee4c1e 1-22
+programs/terminal/src-tauri/configs/vite.config.ts
+  s_dc6d66c5fbfcb7::t_c7af9b95f7f23f 15-17
+  s_dc6d66c5fbfcb7::t_a597bc3c7fe70d 1-14,18-39,41-43
+  s_dc6d66c5fbfcb7::t_74b47d482599df 40
+packages/tsconfig/tsconfig.base.json
+  s_dc6d66c5fbfcb7::t_883a55cfcba4ce 1-20
+programs/editor/src/styles/app.css
+  s_dc6d66c5fbfcb7::t_0cd88fdbb5c431 1
+pnpm-workspace.yaml
+  s_dc6d66c5fbfcb7::t_9b0c308f37bb89 1-16,18-30
+  s_dc6d66c5fbfcb7::t_ae56e81c686f1c 17
+packages/shell-ui/src/components/chrome/Shell.svelte
+  s_dc6d66c5fbfcb7::t_a95395c76fa016 1-7,9,11-14,16-20,22-46,49-65,68-74
+  s_dc6d66c5fbfcb7::t_1982a965001d9c 8,10,15,21,47-48,66-67
+programs/editor/src/types/vite-env.d.ts
+  s_dc6d66c5fbfcb7::t_35f7a35f156599 1-2
+programs/explorer/src-tauri/build.rs
+  s_dc6d66c5fbfcb7::t_ed58077fef0253 1-3
+crates/cli/Cargo.toml
+  s_dc6d66c5fbfcb7::t_a39efeea001cec 1-15
+programs/terminal/src/main.ts
+  s_dc6d66c5fbfcb7::t_01e53f6f68ef88 1-12
+programs/editor/src-tauri/build.rs
+  s_dc6d66c5fbfcb7::t_b48e90bcb38133 1-3
+packages/shell-ui/src/index.ts
+  s_dc6d66c5fbfcb7::t_02b04abbde10cc 1-10
+programs/editor/src-tauri/configs/typescript/tsconfig.app.json
+  s_dc6d66c5fbfcb7::t_7b050e091e1cb1 1-7
+crates/cli/src/main.rs
+  s_dc6d66c5fbfcb7::t_dde9dc33371eb6 2
+  s_dc6d66c5fbfcb7::t_7a643b3718d93f 1,3-37
+packages/shell-bridge/src/types.ts
+  s_dc6d66c5fbfcb7::t_8a367cdd79518b 1-15
+programs/terminal/src-tauri/capabilities/tray-menu.json
+  s_dc6d66c5fbfcb7::t_76ea504e863b15 1-5
+packages/shell-ui/src/components/chrome/AppLayout.svelte
+  s_dc6d66c5fbfcb7::t_186937a5d246cb 1-31
+programs/terminal/src-tauri/capabilities/default.json
+  s_dc6d66c5fbfcb7::t_0eb724aca6058c 1-12
+cargo.lock
+  s_dc6d66c5fbfcb7::t_4c08227dba0bfc 1-4650
+pnpm-lock.yaml
+  s_dc6d66c5fbfcb7::t_d819d065b34961 1-1556
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "99dd6d1115e882ae8e5a886ab6eebb7afef0fe4c",
+  "prompts": {},
+  "sessions": {
+    "s_dc6d66c5fbfcb7": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "1026ef36-9a7d-4656-9f21-95c54a9d7f21",
+        "model": "cursor-grok-4.6-xhigh-fast"
+      },
+      "human_author": "ATOMANGELETTI <DUSTIN@ANGELETTI.SPACE>"
+    }
+  }
+}
