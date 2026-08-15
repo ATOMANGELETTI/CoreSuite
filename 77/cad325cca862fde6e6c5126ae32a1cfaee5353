@@ -1,0 +1,92 @@
+.cursor/rules/coresuite.mdc
+  s_3f4bae1f4a6ad2::t_c7a177b3dc1e21 1-30
+.cursorindexingignore
+  s_3f4bae1f4a6ad2::t_6ae93c4fd6f4e7 1-17
+.cursor/README.md
+  s_9d1377d696a5d8::t_a7380d4d05c17f 1-24
+.cursor/agents/tauri-reviewer.md
+  s_a80b9897888759::t_093959e1064779 1-21
+.cursor/rules/tauri.mdc
+  s_a80b9897888759::t_3cbfe39372464e 1-24
+.cursor/hooks/before-shell.mjs
+  s_9d1377d696a5d8::t_29e6048da6008c 1-328
+.cursor/rules/react-ui.mdc
+  s_a80b9897888759::t_ce7aebca286d52 1-26
+.cursorignore
+  s_3f4bae1f4a6ad2::t_9be005ea3122e4 1
+  s_3f4bae1f4a6ad2::t_ab78cc871c11e4 2-19
+.cursor/skills/verify-change/SKILL.md
+  s_a80b9897888759::t_30e14dd1c78ea4 1-23
+.cursor/rules/testing.mdc
+  s_a80b9897888759::t_07c008742d6ca7 1-25
+.cursor/hooks.json
+  s_9d1377d696a5d8::t_d855486e75e737 1-11
+.gitignore
+  s_3f4bae1f4a6ad2::t_d2435179581e2f 1-23
+.cursor/rules/typescript.mdc
+  s_a80b9897888759::t_7b151e637cb3f3 1-25
+.cursor/skills/review-layering/SKILL.md
+  s_a80b9897888759::t_2cf229f2da88a4 1-24
+.cursor/hooks/lib.mjs
+  s_9d1377d696a5d8::t_6b5711c788a2ac 1-47
+.cursor/rules/rust.mdc
+  s_a80b9897888759::t_534cd475d00f45 1-32
+.cursor/skills/new-program/SKILL.md
+  s_a80b9897888759::t_453e18af4a76ee 1-15
+.cursor/skills/fill-scaffold/SKILL.md
+  s_a80b9897888759::t_959a44e59f0ea6 1-25
+.cursor/commands/review-layering.md
+  s_a80b9897888759::t_b9db2bbd0edfe7 1-6
+.cursor/rules/github.mdc
+  s_a80b9897888759::t_25424f8a277f34 1-14
+.cursor/agents/monorepo-reviewer.md
+  s_a80b9897888759::t_24019a78c72204 1-29
+.cursor/skills/debug-tauri/SKILL.md
+  s_a80b9897888759::t_8021ad2b5f1e28 1-22
+.cursor/skills/add-program/SKILL.md
+  s_a80b9897888759::t_1032b6c59455b4 1-27
+.cursor/hooks/state/continual-learning.json
+  s_3f4bae1f4a6ad2::t_96e25df7cebd80 4,6
+AGENTS.md
+  s_3f4bae1f4a6ad2::t_794c785cad0989 1-28
+.cursor/commands/verify.md
+  s_a80b9897888759::t_55f0fd09437d90 1-6
+.cursor/environment.json
+  s_9d1377d696a5d8::t_d6fd48f1d9617e 1-5
+.cursor/skills/share-code/SKILL.md
+  s_a80b9897888759::t_75e26dd9f59781 1-29
+.cursor/commands/new-program.md
+  s_a80b9897888759::t_f9686eb4811514 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "77cad325cca862fde6e6c5126ae32a1cfaee5353",
+  "prompts": {},
+  "sessions": {
+    "s_3f4bae1f4a6ad2": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "741d54ec-b5f6-489c-88eb-f20a51703883",
+        "model": "cursor-grok-4.6-xhigh-fast"
+      },
+      "human_author": "ATOMANGELETTI <DUSTIN@ANGELETTI.SPACE>"
+    },
+    "s_9d1377d696a5d8": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "54629c13-0a49-4036-8af7-7d3beffcb2fe",
+        "model": "cursor-grok-4.6-xhigh-fast"
+      },
+      "human_author": "ATOMANGELETTI <DUSTIN@ANGELETTI.SPACE>"
+    },
+    "s_a80b9897888759": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "c2a64238-933d-48ca-b438-af50767fa1d5",
+        "model": "cursor-grok-4.6-xhigh-fast"
+      },
+      "human_author": "ATOMANGELETTI <DUSTIN@ANGELETTI.SPACE>"
+    }
+  }
+}
