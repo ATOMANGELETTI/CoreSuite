@@ -1,0 +1,32 @@
+name: Feature
+description: Request or propose a change
+title: "[feat] "
+labels:
+  - enhancement
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - editor
+        - explorer
+        - terminal
+        - shared crate or package
+        - CI / release
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is missing or painful today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Prefer extracting shared code into crates/ or packages/ instead of copying into all three programs.
+    validations:
+      required: true

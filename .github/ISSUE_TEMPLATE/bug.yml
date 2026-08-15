@@ -1,0 +1,48 @@
+name: Bug
+description: Something is broken in a program, crate, or package
+title: "[bug] "
+labels:
+  - bug
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Where does this show up?
+      options:
+        - editor
+        - explorer
+        - terminal
+        - shared crate or package
+        - CI / release
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "e.g. Windows 11 24H2"
+    validations:
+      required: true
+  - type: dropdown
+    id: capabilities
+    attributes:
+      label: Did you change Tauri capabilities?
+      options:
+        - "No"
+        - "Yes — describe in the report"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Expected vs actual. Include logs if you have them.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+    validations:
+      required: true

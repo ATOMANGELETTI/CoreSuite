@@ -15,7 +15,7 @@ Every tracked source file starts empty. The **tree is the spec**.
    - `packages/shell-ui/src/package.json` is the shell-ui manifest (do not invent another root).
    - Theme file: `styles/modules/themes/nord-theme.css`
    - Tauri configs: `tauri.conf.json` + `tauri.windows.conf.json`
-   - Middleware config: new files use `middleware.ts` (do not propagate `milddleware.ts`).
+   - Middleware config: `src-tauri/configs/middleware.ts`
 4. Do not add folders, crates, packages, workflows, or MCP servers that are not already in the tree.
 5. Do not invent product features (no fake editor/explorer/terminal behavior).
 6. Reuse workspace names from existing `package.json` / `Cargo.toml` when present.

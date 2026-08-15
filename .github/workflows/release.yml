@@ -1,0 +1,51 @@
+# Windows NSIS publish. Draft GitHub Release; all three apps upload to the same v* tag.
+# Optional later (do not commit secrets):
+#   TAURI_SIGNING_PRIVATE_KEY / TAURI_SIGNING_PRIVATE_KEY_PASSWORD
+#   Authenticode certs for signed installers
+name: Release
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        app:
+          - editor
+          - explorer
+          - terminal
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup CoreSuite
+        uses: ./.github/actions/setup-coresuite
+
+      - name: Install JS dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build and attach NSIS
+        uses: tauri-apps/tauri-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          projectPath: programs/${{ matrix.app }}
+          updaterJsonPreferNsis: true
+          releaseDraft: true
+          prerelease: false
+          tagName: ${{ github.ref_type == 'tag' && github.ref_name || format('draft-{0}', github.run_number) }}
+          releaseName: ${{ github.ref_type == 'tag' && github.ref_name || format('Draft {0}', github.run_number) }}
+          releaseBody: See the assets to download this CoreSuite version and install.

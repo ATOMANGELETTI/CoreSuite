@@ -1,0 +1,41 @@
+# CI (verify only). First green run needs real package.json / cargo.toml and a committed pnpm-lock.yaml.
+# pnpm install --frozen-lockfile is intentional; do not switch to npm.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup CoreSuite
+        uses: ./.github/actions/setup-coresuite
+
+      - name: Install JS dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: cargo check (workspace)
+        run: cargo check
+
+      - name: cargo check (editor)
+        run: cargo check --manifest-path programs/editor/src-tauri/Cargo.toml
+
+      - name: cargo check (explorer)
+        run: cargo check --manifest-path programs/explorer/src-tauri/Cargo.toml
+
+      - name: cargo check (terminal)
+        run: cargo check --manifest-path programs/terminal/src-tauri/Cargo.toml

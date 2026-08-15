@@ -1,0 +1,87 @@
+{
+  // Pinned tabs: icon only on the top row; unpinned tabs on the second row.
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "workbench.editor.labelFormat": "medium",
+
+  "npm.packageManager": "pnpm",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+  "rust-analyzer.check.command": "check",
+  "prettier.requireConfig": true,
+
+  "[rust]": {
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "files.associations": {
+    "**/tauri.conf.json": "jsonc",
+    "**/tauri.windows.conf.json": "jsonc",
+    "*.nsh": "nsis"
+  },
+
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/target": true,
+    "**/dist": true,
+    "**/.turbo": true,
+    "**/coverage": true,
+    "**/playwright-report": true,
+    "**/test-results": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/target": true,
+    "**/dist": true,
+    "**/.turbo": true,
+    "**/coverage": true,
+    "**/playwright-report": true,
+    "**/test-results": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/target/**": true,
+    "**/dist/**": true,
+    "**/.turbo/**": true,
+    "**/coverage/**": true,
+    "**/playwright-report/**": true,
+    "**/test-results/**": true
+  },
+
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json, pnpm-lock.yaml, pnpm-workspace.yaml, .npmrc, .node-version, .nodeswitcher",
+    "Cargo.toml": "Cargo.lock, rust-toolchain.toml, rust-toolchain",
+    "cargo.toml": "cargo.lock, rust-toolchain.toml, rust-toolchain",
+    "tauri.conf.json": "tauri.*.conf.json",
+    "tsconfig.json": "tsconfig.*.json, tsconfig.base.json",
+    "tsconfig.base.json": "tsconfig.*.json"
+  }
+}

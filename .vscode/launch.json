@@ -1,0 +1,47 @@
+{
+  // CoreSuite Tauri debug (CodeLLDB). Install vadimcn.vscode-lldb, then F5.
+  // preLaunchTask starts programs/<app>/src-tauri/scripts/dev.ts — a stub until that script is filled.
+  // Rust still builds via cargo. Add cppvsdbg configs later once tauri.conf.json has a real productName.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug Editor",
+      "cargo": {
+        "args": [
+          "build",
+          "--manifest-path=programs/editor/src-tauri/Cargo.toml",
+          "--no-default-features"
+        ]
+      },
+      "preLaunchTask": "ui:dev:editor"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug Explorer",
+      "cargo": {
+        "args": [
+          "build",
+          "--manifest-path=programs/explorer/src-tauri/Cargo.toml",
+          "--no-default-features"
+        ]
+      },
+      "preLaunchTask": "ui:dev:explorer"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug Terminal",
+      "cargo": {
+        "args": [
+          "build",
+          "--manifest-path=programs/terminal/src-tauri/Cargo.toml",
+          "--no-default-features"
+        ]
+      },
+      "preLaunchTask": "ui:dev:terminal"
+    }
+  ]
+}

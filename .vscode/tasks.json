@@ -1,0 +1,108 @@
+{
+  // Cargo checks are usable now. ui:dev:* runs node against empty scripts/dev.ts stubs
+  // until those files and package manifests are filled.
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "cargo check",
+      "type": "shell",
+      "command": "cargo",
+      "args": ["check"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$rustc"]
+    },
+    {
+      "label": "cargo check:editor",
+      "type": "shell",
+      "command": "cargo",
+      "args": ["check", "--manifest-path", "programs/editor/src-tauri/Cargo.toml"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$rustc"]
+    },
+    {
+      "label": "cargo check:explorer",
+      "type": "shell",
+      "command": "cargo",
+      "args": ["check", "--manifest-path", "programs/explorer/src-tauri/Cargo.toml"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$rustc"]
+    },
+    {
+      "label": "cargo check:terminal",
+      "type": "shell",
+      "command": "cargo",
+      "args": ["check", "--manifest-path", "programs/terminal/src-tauri/Cargo.toml"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$rustc"]
+    },
+    {
+      "label": "ui:dev:editor",
+      "type": "shell",
+      "command": "node",
+      "args": ["src-tauri/scripts/dev.ts"],
+      "options": {
+        "cwd": "${workspaceFolder}/programs/editor"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "ui-dev-editor",
+        "pattern": { "regexp": "^$" },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".",
+          "endsPattern": "."
+        }
+      }
+    },
+    {
+      "label": "ui:dev:explorer",
+      "type": "shell",
+      "command": "node",
+      "args": ["src-tauri/scripts/dev.ts"],
+      "options": {
+        "cwd": "${workspaceFolder}/programs/explorer"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "ui-dev-explorer",
+        "pattern": { "regexp": "^$" },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".",
+          "endsPattern": "."
+        }
+      }
+    },
+    {
+      "label": "ui:dev:terminal",
+      "type": "shell",
+      "command": "node",
+      "args": ["src-tauri/scripts/dev.ts"],
+      "options": {
+        "cwd": "${workspaceFolder}/programs/terminal"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "ui-dev-terminal",
+        "pattern": { "regexp": "^$" },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".",
+          "endsPattern": "."
+        }
+      }
+    }
+  ]
+}
