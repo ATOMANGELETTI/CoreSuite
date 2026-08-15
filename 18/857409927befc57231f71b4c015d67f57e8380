@@ -1,0 +1,54 @@
+.cursor/context/architecture.md
+  s_84ab308140471f::t_6e1723b58f7a31 1-22
+.cursor/cache/.gitignore
+  s_84ab308140471f::t_3173c70624afba 1-4
+.cursor/context/versions.md
+  s_84ab308140471f::t_73644401051ee3 1-14
+.cursor/cache/versions.example.json
+  s_84ab308140471f::t_6af93daa53c045 1-16
+.cursor/context/ui.md
+  s_84ab308140471f::t_d07b16b8f1fb5b 1-24
+AGENTS.md
+  s_84ab308140471f::t_ab7ae5cc37ffdd 5
+.gitignore
+  s_84ab308140471f::t_f1718704c6c241 13-18
+.cursor/context/stack.md
+  s_84ab308140471f::t_2b6da7391de532 1-25
+.cursor/cache/README.md
+  s_84ab308140471f::t_0bae9a97a27408 1-22
+.cursor/README.md
+  s_84ab308140471f::t_842355fb9cd3c6 25
+  s_84ab308140471f::t_96990dfb5e232f 15-16
+.cursor/skills/fill-scaffold/SKILL.md
+  s_84ab308140471f::t_14fd09d5be6222 8
+.cursorindexingignore
+  s_84ab308140471f::t_bbe2d222bc7c4d 18
+.cursor/skills/share-code/SKILL.md
+  s_84ab308140471f::t_32493c0e5df7f8 17
+.cursor/rules/coresuite.mdc
+  s_84ab308140471f::t_9e7f1db3d65881 13
+  s_84ab308140471f::t_c16da6e165ada4 29
+  s_84ab308140471f::t_d01544fe5acaca 20
+.cursor/context/README.md
+  s_84ab308140471f::t_7b7855b5848cf7 1-12
+.cursor/rules/react-ui.mdc
+  s_84ab308140471f::t_8885779022b2c3 3
+  s_84ab308140471f::t_e838f33f400269 2
+  s_84ab308140471f::t_2775022244309d 7-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "18857409927befc57231f71b4c015d67f57e8380",
+  "prompts": {},
+  "sessions": {
+    "s_84ab308140471f": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "e8606575-15a3-492f-b68f-c747f87be42e",
+        "model": "grok-4.6"
+      },
+      "human_author": "ATOMANGELETTI <DUSTIN@ANGELETTI.SPACE>"
+    }
+  }
+}
