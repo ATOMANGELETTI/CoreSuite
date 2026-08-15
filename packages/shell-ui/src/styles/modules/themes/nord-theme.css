@@ -1,0 +1,88 @@
+/*
+  Official Nord palettes — Polar Night, Snow Storm, Frost, Aurora.
+  https://www.nordtheme.com/docs/colors-and-palettes
+  Define tokens once here. Programs import; they do not fork this file.
+*/
+
+@theme inline {
+  --color-nord-0: #2e3440;
+  --color-nord-1: #3b4252;
+  --color-nord-2: #434c5e;
+  --color-nord-3: #4c566a;
+  --color-nord-4: #d8dee9;
+  --color-nord-5: #e5e9f0;
+  --color-nord-6: #eceff4;
+  --color-nord-7: #8fbcbb;
+  --color-nord-8: #88c0d0;
+  --color-nord-9: #81a1c1;
+  --color-nord-10: #5e81ac;
+  --color-nord-11: #bf616a;
+  --color-nord-12: #d08770;
+  --color-nord-13: #ebcb8b;
+  --color-nord-14: #a3be8c;
+  --color-nord-15: #b48ead;
+
+  --color-background: var(--color-nord-0);
+  --color-foreground: var(--color-nord-6);
+  --color-card: var(--color-nord-1);
+  --color-card-foreground: var(--color-nord-6);
+  --color-popover: var(--color-nord-1);
+  --color-popover-foreground: var(--color-nord-6);
+  --color-primary: var(--color-nord-8);
+  --color-primary-foreground: var(--color-nord-0);
+  --color-secondary: var(--color-nord-2);
+  --color-secondary-foreground: var(--color-nord-5);
+  --color-muted: var(--color-nord-2);
+  --color-muted-foreground: var(--color-nord-4);
+  --color-accent: var(--color-nord-9);
+  --color-accent-foreground: var(--color-nord-6);
+  --color-destructive: var(--color-nord-11);
+  --color-destructive-foreground: var(--color-nord-6);
+  --color-border: var(--color-nord-3);
+  --color-input: var(--color-nord-3);
+  --color-ring: var(--color-nord-8);
+  --color-ok: var(--color-nord-14);
+  --color-warn: var(--color-nord-13);
+  --color-error: var(--color-nord-11);
+
+  --font-sans: "Inter Variable", Inter, system-ui, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Code", "SF Mono", Consolas, monospace;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+}
+
+:root,
+[data-theme="nord"] {
+  color-scheme: dark;
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+  --nord7: #8fbcbb;
+  --nord8: #88c0d0;
+  --nord9: #81a1c1;
+  --nord10: #5e81ac;
+  --nord11: #bf616a;
+  --nord12: #d08770;
+  --nord13: #ebcb8b;
+  --nord14: #a3be8c;
+  --nord15: #b48ead;
+  --background: var(--nord0);
+  --foreground: var(--nord6);
+  --card: var(--nord1);
+  --border: var(--nord3);
+  --primary: var(--nord8);
+  --muted: var(--nord4);
+  --ok: var(--nord14);
+  --warn: var(--nord13);
+  --error: var(--nord11);
+  --traffic-close: #bf616a;
+  --traffic-minimize: #ebcb8b;
+  --traffic-maximize: #a3be8c;
+}

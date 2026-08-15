@@ -1,0 +1,6 @@
+@import "@fontsource-variable/inter";
+@import "tailwindcss";
+@import "./modules/themes/nord-theme.css";
+@import "./app.css";
+
+@source "../**/*.{svelte,ts}";

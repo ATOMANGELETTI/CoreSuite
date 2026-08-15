@@ -1,0 +1,3 @@
+@import "@coresuite/shell-ui/styles";
+
+@source "../**/*.{svelte,ts}";

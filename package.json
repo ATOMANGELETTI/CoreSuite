@@ -1,0 +1,22 @@
+{
+  "name": "coresuite",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.34.5",
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=10 <11"
+  },
+  "scripts": {
+    "tauri:dev:editor": "pnpm --filter @coresuite/editor tauri:dev",
+    "tauri:dev:explorer": "pnpm --filter @coresuite/explorer tauri:dev",
+    "tauri:dev:terminal": "pnpm --filter @coresuite/terminal tauri:dev",
+    "cli": "cargo run -p coresuite-cli --"
+  },
+  "devDependencies": {
+    "prettier": "catalog:",
+    "prettier-plugin-svelte": "catalog:",
+    "turbo": "catalog:",
+    "typescript": "catalog:"
+  }
+}

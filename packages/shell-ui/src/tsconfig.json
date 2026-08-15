@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig/tsconfig.library.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "declaration": false,
+    "declarationMap": false,
+    "emitDeclarationOnly": false,
+    "types": ["vite/client"]
+  },
+  "include": ["./**/*.ts", "./**/*.svelte"]
+}

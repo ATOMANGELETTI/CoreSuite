@@ -1,0 +1,28 @@
+{
+  "name": "@coresuite/editor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config src-tauri/configs/vite.config.ts --port 5173 --strictPort",
+    "build": "vite build --config src-tauri/configs/vite.config.ts",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "dependencies": {
+    "@coresuite/shell-bridge": "workspace:*",
+    "@coresuite/shell-ui": "workspace:*",
+    "@tauri-apps/api": "catalog:",
+    "svelte": "catalog:"
+  },
+  "devDependencies": {
+    "@coresuite/tsconfig": "workspace:*",
+    "@sveltejs/vite-plugin-svelte": "catalog:",
+    "@tailwindcss/vite": "catalog:",
+    "@tauri-apps/cli": "catalog:",
+    "@types/node": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:"
+  }
+}

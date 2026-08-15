@@ -1,0 +1,15 @@
+[package]
+name = "coresuite-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Standalone CoreSuite CLI over coresuite-core"
+publish = false
+
+[[bin]]
+name = "coresuite"
+path = "src/main.rs"
+
+[dependencies]
+clap = { workspace = true }
+coresuite-core = { workspace = true }

@@ -1,0 +1,11 @@
+[package]
+name = "coresuite-shell"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Shared CoreSuite window/shell library (Tauri plugin)"
+publish = false
+
+[dependencies]
+coresuite-core = { workspace = true }
+tauri = { workspace = true }

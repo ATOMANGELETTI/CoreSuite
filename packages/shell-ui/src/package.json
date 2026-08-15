@@ -1,0 +1,28 @@
+{
+  "name": "@coresuite/shell-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./styles": "./styles/index.css",
+    "./styles/theme": "./styles/modules/themes/nord-theme.css"
+  },
+  "types": "./index.ts",
+  "dependencies": {
+    "@coresuite/shell-bridge": "workspace:*",
+    "@fontsource-variable/inter": "catalog:",
+    "bits-ui": "catalog:",
+    "clsx": "catalog:",
+    "@lucide/svelte": "catalog:",
+    "tailwind-merge": "catalog:",
+    "tailwind-variants": "catalog:"
+  },
+  "peerDependencies": {
+    "svelte": "catalog:"
+  },
+  "devDependencies": {
+    "svelte": "catalog:",
+    "typescript": "catalog:"
+  }
+}
